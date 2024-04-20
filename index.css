@@ -1,0 +1,92 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+  }
+  h3, p{
+    margin-left: 2%;
+  }
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  header, footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  /* Estilos da seção "Sobre mim" */
+  #about {
+    background-color: #fff;
+    padding: 50px 0;
+  }
+  
+  /* Estilos da seção "Projetos" */
+  #projects {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+  }
+  
+  .project {
+    margin-bottom: 40px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .project:hover {
+    transform: translateY(-5px);
+  }
+  
+  .project img {
+    width: 100%;
+    height: auto;
+    
+  }
+  
+  .project h3 {
+    margin-top: 20px;
+    color: #343a40;
+  }
+  
+  .project p {
+    color: #6c757d;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #343a40;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-left: 2%;
+    margin-bottom: 1%;
+  }
+  
+  .btn:hover {
+    background-color: #212529;
+  }
+  
+  /* Estilos da seção "Contato" */
+  #contact {
+    background-color: #fff;
+    padding: 50px 0;
+  }
+  
+  footer {
+    background-color: #343a40;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
